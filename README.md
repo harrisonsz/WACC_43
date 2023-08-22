@@ -1,5 +1,4 @@
-This is the provided git repository for the WACC compilers lab. You should work
-in this repository regularly committing and pushing your work back to GitLab.
+This is an imperial second year project(WACC).
 
 # Provided files/directories
 
