@@ -1,0 +1,5 @@
+begin
+    int a = 7;
+    int b = 3 - 2 + 1;
+    println(b)
+end

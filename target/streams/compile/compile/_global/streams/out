@@ -1,0 +1,32 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/back/PreDefinedFuncs.scala:3:30: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport wacc.back.IRGenerator._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/back/RegOperator.scala:4:33: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport scala.collection.mutable.ArrayBuffer[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/decompiler/ControlFlowGraph.scala:302:15: private method peephole in object ControlFlowGraph is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  private def peephole(CFBlock: CFBlock) : CFBlock= {[0m
+[0m[[0m[33mwarn[0m] [0m[0m              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/decompiler/DataFlow/DataFlowAnalysis.scala:18:17: local val rnVal in method iRtoL2IR is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m            val rnVal = transOp2(rn, symbolTable)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/decompiler/DataFlow/DataFlowAnalysis.scala:19:17: local val op2Val in method iRtoL2IR is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m            val op2Val = transOp2(op2, symbolTable)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/back/NewIRGenerator.scala:49:7: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Fst(_), Ident(_), Snd(_), _[0m
+[0m[[0m[33mwarn[0m] [0m[0m      lv match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/back/NewIRGenerator.scala:47:76: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: Exit(_), Free(_), If(_, _, _), Init(_, _, _), Print(_), Println(_), Read(_), Return(_), Skip, SubProgram(_), While(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def transStat(stat: Stat, symbolTable: SymbolTable): List[Instruction] = stat match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/decompiler/DataFlow/DataFlowAnalysis.scala:16:9: Exhaustivity analysis reached max recursion depth, not all missing cases are reported.[0m
+[0m[[0m[33mwarn[0m] [0m[0m(Please try with scalac -Ypatmat-exhaust-depth 40 or -Ypatmat-exhaust-depth off.)[0m
+[0m[[0m[33mwarn[0m] [0m[0m        head match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/harrison/Desktop/imperial_year2/WACC/WACC_43/src/main/scala/wacc/decompiler/DataFlow/DataFlowAnalysis.scala:27:73: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: ASR(_, _), LSL(_, _)[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def transOp2(op2: Operand2, symbolTable: SimpleSymbolTable): AriExp = op2 match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m9 warnings found[0m
